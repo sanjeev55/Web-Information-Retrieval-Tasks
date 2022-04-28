@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!-- saved from url=(0037)https://www.yorku.ca/mack/chi03d.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title>
+Auditory and Visual Feedback During Eye Typing
+</title>
+
+</head><body data-new-gr-c-s-check-loaded="14.985.0" data-gr-ext-installed="">
+<blockquote>
+<hr>
+<font size="-1">
+Majaranta, P., MacKenzie, I. S., Aula, A., &amp; Räihä, K.-J.
+(2003). 
+Auditory and visual feedback during eye typing.
+<i>Proceedings of the ACM Conference on Human Factors in Computing Systems - CHI 2003</i>, pp. 766-767.
+New York: ACM.
+</font>
+<hr>
+
+<center>
+<h1>
+Auditory and Visual Feedback During Eye Typing
+</h1>
+
+<h3>
+Majaranta, P., 
+<a href="http://www.yorku.ca/mack/">MacKenzie, I. S.</a>, 
+Aula, A., &amp; 
+<a href="http://www.cs.uta.fi/~kjr/">Räihä, K.-J.</a>
+</h3>
+
+
+Unit for Computer-Human Interaction (TAUCHI)<br>
+Department of Computer and Information Sciences <br>
+FIN-33014 University of Tampere, Finland<br>
+{curly, scott, aula, kjr}@cs.uta.fi<br>
+</center>
+
+<blockquote>
+<b>ABSTRACT</b><br>
+We describe a study on how auditory and visual feedback affects eye typing. Results show that the feedback method influences both text entry speed and error rate. In addition, a proper feedback mode facilitates eye typing by reducing the user's need to switch her gaze between the on-screen keyboard and the typed text field.
+<p>
+
+<b>Keywords</b><br>
+Eye typing, text entry, feedback modalities, disabled users
+
+</p></blockquote>
+
+<h2>INTRODUCTION
+</h2>
+<p>
+For people with severe disabilities their eyes may be the only means for communication. Even though eye typing has been studied for many years, there is little research on design issues [2]. Our goal was to study how feedback could facilitate the tedious [1] eye typing task and make gaze-based computer-aided communication more practical for those who need it.
+</p><p>
+
+</p><h3>
+Feedback Modes
+</h3>
+
+<p>
+During eye typing the user first focuses on the desired letter. To select the focused letter she continues to fixate on it thus using dwell time as an activation command. Feedback is given for focus and selection. The following four feedback modes were tested. 
+</p><p>
+
+<b>Visual only.</b> In the Visual only mode, the key is highlighted on focus (the 2nd key on left in Figure 1) and its symbol shrinks as dwell time elapses. The shrinking draws the attention in, helping the user focus on the center of the key. On selection the letter turns red and the key goes down. 
+</p><p>
+
+</p><center>
+<img src="./Document1_files/chi03d-f1.gif"><br>
+<b>Figure 1.</b> Animation for Visual only feedback mode 
+</center>
+<p>
+
+<b>Speech only.</b> The Speech only mode did not use visual feedback. The symbol on the key was spoken on selection.
+</p><p>
+
+<b>Click plus visual.</b> The Click plus visual mode uses two modalities; it has the same visual feedback seen in Figure 1 and, in addition, a short "click" is heard on selection.
+</p><p>
+
+<b>Speech plus visual.</b> The Speech plus visual mode again uses the same visual feedback plus the symbol on the key is spoken on selection.
+</p><p>
+The dwell time was the same for all modes: 400 ms before the start of the focus and 900 ms before selection. A summary of the modes follows.
+
+</p><center>
+<table bgcolor="#f0f0f0" border="1" cellpadding="5" cellspacing="0">
+<tbody><tr bgcolor="#e0e0e0">
+<th align="center">Feedback mode
+</th><th align="center">While focused
+</th><th align="center">When selected
+
+</th></tr><tr>
+<td align="left">Visual only
+</td><td align="left">shrinking letter
+</td><td align="left">red letter, key down
+
+</td></tr><tr>
+<td align="left">Speech only
+</td><td align="left">none
+</td><td align="left">letter spoken
+
+</td></tr><tr>
+<td align="left">Click + visual
+</td><td align="left">shrinking letter
+</td><td align="left">red letter, key down, click
+
+</td></tr><tr>
+<td align="left">Speech + visual
+</td><td align="left">shrinking letter
+</td><td align="left">red letter, key down,<br> 
+letter spoken
+</td></tr></tbody></table>
+</center>
+
+<h2>
+METHOD
+</h2>
+<p>
+Our study used 13 participants (5 females, 8 males, mean age 23 years). All were able-bodied with normal or corrected-to-normal vision. None had previous experience with eye tracking or eye typing but all were familiar with desktop computers.
+</p><p>
+The setup combined two computers and an eye tracking device (SensoMotoric Instruments iView X RED-III, 50 Hz sampling, 1-degree gaze position accuracy, see Figure 2).  
+</p><p>
+
+</p><center>
+<img src="./Document1_files/chi03d-f2.gif"><br>
+<b>Figure 2.</b> SMI eye tracker and experimental software
+</center>
+
+<p>
+The software had an on-screen keyboard, a typed text field above, and a source text field below. The user first read the source text and then eye typed it letter by letter by gazing at a letter for the predefined dwell time. The typed text appeared in the upper field. The qwerty layout was chosen over alternatives based on pilot users' comments. For the experiment, a special "ready" key was added. Activating this key cleared the typed text field and loaded a new source sentence.
+</p><p>
+We collected three types of data: fixation data, raw eye data, and event data logged by the experimental software. We also videotaped all trials.
+</p><p>
+The experiment was a 4 x 4 repeated measures design with 4 feedback modes and 4 blocks of sentences. The order of administering the feedback modes was randomized across blocks and participants to minimize asymmetric learning effects. Each block involved the entry of the same five short phrases of text. The user was instructed to memorize the source sentence and then eye type it as fast and accurately as possible. There was a short pause after each block. Each participant came to the test four times. In the last visit we interviewed the user and gave a questionnaire. The total number of phrases was 1040 (13 participants x 4 feedback modes x 4 blocks x 5 sentences).
+</p><p>
+
+</p><h2>
+RESULTS AND DISCUSSION
+</h2>
+<p>
+The grand mean for entry speed was 6.97 words per minute. This is typical for eye typing [1, 2], but it is still too low for fluent text entry. As evident in Figure 3, participants improved with practice, as a significant main effect for block was found 
+(<i>F</i><sub>3,36</sub> = 10.92, <i>p</i> &lt; .0001). 
+</p><p>
+
+</p><center>
+<img src="./Document1_files/chi03d-f3.gif"><br>
+<b>Figure 3.</b> Entry speed (wpm) by feedback mode and block
+</center>
+
+
+<p>
+The main effect for feedback mode was also significant 
+(<i>F</i><sub>3,36</sub> = 8.77, <i>p</i> &lt; .0005). 
+Overall, the combined use of Click plus visual feedback yielded the fastest entry rate, with participants achieving a fourth block mean of 7.55 wpm. The other fourth-block means were 7.14 wpm (Speech plus visual), 7.12 wpm (Visual only), and 7.00 wpm (Speech only). The dwell time was constant for all feedback modes. The entry rate will naturally speed up with a shorter dwell duration. This may be possible as a user develops proficiency with the apparatus.
+</p><p>
+Participants' accuracy also improved significantly with practice 
+(<i>F</i><sub>3,36</sub> = .09, <i>p</i> = .005), 
+as seen in Figure 4. Character-level error rates were quite low overall with a grand mean of 0.54%. Participants proceeded quite cautiously to avoid a loss of calibration, which occurred occasionally and necessitated re-typing a phrase. There were significant main effects for feedback mode 
+(<i>F</i><sub>3,36</sub> = 5.01, <i>p</i> = .005). 
+Eye typing with Speech only feedback was the most accurate technique throughout the experiment with error rates under 0.8% on all four blocks.
+</p><p>
+
+</p><center>
+<img src="./Document1_files/chi03d-f4.gif"><br>
+<b>Figure 4.</b> Error rate (%) by feedback mode and block
+</center>
+<p>
+Our experimental software logged various events of interest. One such event was "read text", referring to a participant switching their point of gaze to the typed text field to review the text typed so far. The values analyzed were the mean number of such events per phrase of text entered.
+</p><p>
+The overall mean was 1.63 read text events per phrase. By feedback mode, the means were 1.17 (Speech only), 1.28 (Click plus visual), 1.24 (Speed plus visual), and 2.77 (Visual only). The mean for Visual only feedback mode was significantly higher than for the other modes 
+(<i>F</i><sub>3,36</sub> = 30.06, <i>p</i> &lt; .0001). 
+The users' gaze behavior shows (Figure 5) that auditory feedback (click or spoken) significantly reduces the need to review and verify the typed text.
+</p><p>
+
+</p><center>
+<img src="./Document1_files/chi03d-f5.gif"><br>
+<b>Figure 5.</b> Read text events (mean per phrase) by feedback mode and block
+</center>
+<p>
+
+</p><h2>
+CONCLUSIONS AND FUTURE WORK
+</h2>
+<p>
+Our results show that the feedback mode affects typing speed, error rate, and the user's gaze behavior during eye typing. In particular, proper feedback may dramatically reduce the need to switch gaze between the soft keyboard and the typed text field thus reducing the entry time. The results also suggest that auditory feedback (click or spoken) is a more effective indication of selection than visual feedback alone. 
+</p><p>
+The data analysis is ongoing; there are other interactions to analyze, such as gaze path, the types of errors, and the results of the questionnaire.
+</p><p>
+
+</p><h2>
+REFERENCES
+</h2>
+<p>
+1. Frey, L.A, White, K.P. Jr., and Hutchinson, T.E. Eye-gaze word processing, <i>IEEE Transactions on Systems, Man, and Cybernetics 20</i> (4), 1990, 944-950.
+</p><p>
+2. Majaranta, P., and Räihä, K.-J. Twenty years of eye typing: Systems and design issues, <i>Proceedings of ETRA'02</i>, New Orleans, LA, ACM Press, 2002, 15-22.
+</p><p>
+
+</p><p>
+</p></blockquote>
+<p>
+
+</p><p>
+</p><iframe frameborder="0" scrolling="no" style="background-color: transparent; border: 0px; display: none;" src="./Document1_files/saved_resource.html"></iframe><div id="GOOGLE_INPUT_CHEXT_FLAG" style="display: none;" input="" input_stat="{&quot;tlang&quot;:true,&quot;tsbc&quot;:true,&quot;pun&quot;:true,&quot;mk&quot;:true,&quot;ss&quot;:true}"></div></body></html>
